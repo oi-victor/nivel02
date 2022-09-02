@@ -1,0 +1,68 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+
+  text-align: center; /* alinha o texto no centro, mas pode ser anulado esse comando devido outro ter maior prioridade*/
+  margin: 0px;
+}
+
+#hero {
+  width: 592px; /* o width arruma a largura para colocar dentro de uma caixa tudo que está no hero */
+  margin: 0px auto 72px; /* o auto pega a caixa que esta descentralizada e coloca a mesma margem na direita e esquerda */
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px; /* largura da fonte*/
+  line-height: 56px; /* altura da fonte*/
+  font-weight: normal; /* padroniza h1 */
+
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold; /* especifica e da prioridade sobre a fonte padrão de h1*/
+}
+
+
+span, a {
+  color: #FF9900;
+}
+
+p {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+  
+}
+
+#footer {
+  font-size: 14px;
+  line-height: 28px;
+
+  margin-bottom: 33px;
+
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+#footer .line {
+  width: 592px;
+  height: 0px;
+
+  margin: 0px auto 8px;
+
+  border: 1px solid #ECEFF2;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
